@@ -1,0 +1,19 @@
+{
+  "name": "clock-app",
+  "version": "1.0.0",
+  "description": "Digital clock app using electron js",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ."
+  },
+  "author": "itsme.nuwanperera",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.2.1",
+    "electron-winstaller": "^5.1.0"
+  },
+  "dependencies": {
+    "electron-packager": "^17.1.2"
+  }
+}
